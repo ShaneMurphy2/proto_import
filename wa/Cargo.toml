@@ -2,8 +2,12 @@
 name = "proto_import"
 version = "0.1.0"
 authors = ["Shane <shane.murphy@umbra.space>"]
+description = "A macro for including prost-generated macros by package name"
 keywords = ["proc_macro", "procmacro", "prost"]
 edition = "2021"
+repository = "https://github.com/ShaneMurphy2/proto_import"
+homepage = "https://github.com/ShaneMurphy2/proto_import"
+license = "MIT OR Apache-2.0"
 
 [lib]
 proc-macro = true
