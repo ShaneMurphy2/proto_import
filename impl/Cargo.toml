@@ -1,0 +1,19 @@
+[package]
+name = "proto_import_impl"
+version = "0.1.0"
+authors = ["Shane <shane.murphy@umbra.space>"]
+keywords = ["proc_macro", "procmacro", "prost"]
+edition = "2021"
+
+[lib]
+crate-type= ["cdylib"]
+
+[patch.crates-io]
+proc-macro2 = { git = "https://github.com/dtolnay/watt" }
+
+[dependencies]
+quote = "1.0.21"
+proc-macro2 = "1.0.47"
+syn = { version = "1.0.103", features = ["full"] }
+easy-ext = "1.0.1"
+

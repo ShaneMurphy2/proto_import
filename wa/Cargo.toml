@@ -1,0 +1,13 @@
+[package]
+name = "proto_import"
+version = "0.1.0"
+authors = ["Shane <shane.murphy@umbra.space>"]
+keywords = ["proc_macro", "procmacro", "prost"]
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+watt = "0.4"
+
